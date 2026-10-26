@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NetSurf Switch</title>
+<style type="text/css">
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 20px 40px;
+    background: #15161a;
+    color: #e6e6e6;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.title-box {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 8px;
+    background: #20222a;
+    border: 1px solid #323644;
+}
+h1 {
+    display: inline;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: #ffffff;
+}
+.switch-dot-red { color: #e60012; font-weight: bold; }
+.switch-dot-blue { color: #00c3e3; font-weight: bold; }
+.badge {
+    background: #e60012;
+    color: #fff;
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.search-container {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+.search-box {
+    background: #20222a;
+    border: 2px solid #363b4d;
+    border-radius: 30px;
+    padding: 6px 16px;
+    display: inline-block;
+    width: 100%;
+}
+.search-box input[type="text"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    width: 75%;
+    padding: 8px 10px;
+}
+.search-box input[type="submit"] {
+    background: #e60012;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8c93a8;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.grid {
+    display: table;
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto 30px auto;
+    border-spacing: 12px;
+}
+.row {
+    display: table-row;
+}
+.card {
+    display: table-cell;
+    width: 25%;
+    background: #20222a;
+    border: 1px solid #303545;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 10px;
+}
+.card a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.card .desc {
+    color: #7b8294;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 4px;
+}
+.controls {
+    max-width: 860px;
+    margin: 0 auto;
+    background: #1b1c22;
+    border: 1px solid #282c38;
+    border-radius: 8px;
+    padding: 12px 20px;
+    text-align: center;
+}
+.pill {
+    display: inline-block;
+    background: #282c38;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin: 4px 6px;
+    font-size: 13px;
+    color: #d1d5db;
+}
+.btn-tag {
+    color: #00c3e3;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="title-box">
+        <span class="switch-dot-red">&#9632;</span>
+        <h1>NetSurf</h1>
+        <span class="switch-dot-blue">&#9632;</span>
+        <span class="badge">Switch Beta</span>
+    </div>
+</div>
+
+<div class="search-container">
+    <form method="get" action="https://www.google.com/search">
+        <div class="search-box">
+            <input type="text" name="q" placeholder="Поиск в Google или нажмите [X] для URL...">
+            <input type="submit" value="Найти">
+        </div>
+    </form>
+</div>
+
+<div class="section-title">Быстрый доступ / Закладки</div>
+
+<div class="grid">
+    <div class="row">
+        <div class="card">
+            <a href="https://www.google.com/">Google<div class="desc">Поисковик</div></a>
+        </div>
+        <div class="card">
+            <a href="https://html.duckduckgo.com/html/">DuckDuckGo<div class="desc">Лёгкая версия</div></a>
+        </div>
+        <div class="card">
+            <a href="https://ru.m.wikipedia.org/">Википедия<div class="desc">Мобильная версия</div></a>
+        </div>
+        <div class="card">
+            <a href="https://en.m.wikipedia.org/">Wikipedia<div class="desc">English</div></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card">
+            <a href="https://gbatemp.net/">GBAtemp<div class="desc">Сцена Switch</div></a>
+        </div>
+        <div class="card">
+            <a href="https://4pda.to/">4PDA<div class="desc">Форум и новости</div></a>
+        </div>
+        <div class="card">
+            <a href="https://old.reddit.com/">Old Reddit<div class="desc">Лёгкий Reddit</div></a>
+        </div>
+        <div class="card">
+            <a href="http://neverssl.com/">NeverSSL<div class="desc">Проверка сети</div></a>
+        </div>
+    </div>
+</div>
+
+<div class="controls">
+    <div class="pill"><span class="btn-tag">[X]</span> Ввод адреса (Клавиатура)</div>
+    <div class="pill"><span class="btn-tag">[A] / Тач</span> Клик</div>
+    <div class="pill"><span class="btn-tag">[B]</span> Назад</div>
+    <div class="pill"><span class="btn-tag">Пр. стик / L, R</span> Прокрутка страницы</div>
+    <div class="pill"><span class="btn-tag">[-]</span> Выход</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+build/aarch64-none-elf-framebuffer/deps/content_fetchers_about_query_fetcherror.d build/aarch64-none-elf-framebuffer/content_fetchers_about_query_fetcherror.o: \
+ content/fetchers/about/query_fetcherror.c utils/errors.h \
+ utils/messages.h include/netsurf/ssl_certs.h content/fetch.h \
+ utils/config.h utils/nsurl.h \
+ C:/Users/Wertk/.gemini/antigravity/scratch/switch-netsurf/inst-switch/include/libwapcaplet/libwapcaplet.h \
+ utils/inet.h content/fetchers/about/private.h \
+ content/fetchers/about/query.h content/fetchers/about/query_fetcherror.h
+utils/errors.h:
+utils/messages.h:
+include/netsurf/ssl_certs.h:
+content/fetch.h:
+utils/config.h:
+utils/nsurl.h:
+C:/Users/Wertk/.gemini/antigravity/scratch/switch-netsurf/inst-switch/include/libwapcaplet/libwapcaplet.h:
+utils/inet.h:
+content/fetchers/about/private.h:
+content/fetchers/about/query.h:
+content/fetchers/about/query_fetcherror.h:

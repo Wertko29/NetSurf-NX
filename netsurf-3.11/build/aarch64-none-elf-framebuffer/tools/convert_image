@@ -1,0 +1,2 @@
+#!/bin/sh
+/c/Users/Wertk/AppData/Local/Microsoft/WindowsApps/python.exe C:/Users/Wertk/.gemini/antigravity/scratch/switch-netsurf/netsurf-3.11/tools/convert_image.py "$1" "$2" "$3"

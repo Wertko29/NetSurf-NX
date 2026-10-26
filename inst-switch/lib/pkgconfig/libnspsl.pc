@@ -1,0 +1,10 @@
+prefix=/c/Users/Wertk/.gemini/antigravity/scratch/switch-netsurf/inst-switch
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnspsl
+Description: NetSurf Public Suffix List
+Version: 0.1.8
+Libs: -L${libdir} -lnspsl
+Cflags: -I${includedir}
