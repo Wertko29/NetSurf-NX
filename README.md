@@ -1,5 +1,7 @@
 # NetSurf-NX (Nintendo Switch Port)
 
+**English** | [Русская версия](README_RU.md)
+
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Nintendo%20Switch-e60012.svg)]()
 [![Built with devkitPro](https://img.shields.io/badge/devkitPro-libnx-green.svg)](https://devkitpro.org/)
@@ -39,7 +41,7 @@ A native port of the lightweight and fast [NetSurf](https://www.netsurf-browser.
 
 ## 📥 Installation
 
-1. Download the latest release from the [Releases](https://github.com/your-username/NetSurf-NX/releases) page.
+1. Download the latest release from the [Releases](https://github.com/Wertko29/NetSurf-NX/releases) page.
 2. Extract the archive and copy `NetSurf.nro` to the `switch/NetSurf/` folder on your SD card:
    ```text
    sdmc:/switch/NetSurf/NetSurf.nro
@@ -63,7 +65,7 @@ A native port of the lightweight and fast [NetSurf](https://www.netsurf-browser.
 
 ### Build Steps
 ```bash
-git clone https://github.com/your-username/NetSurf-NX.git
+git clone https://github.com/Wertko29/NetSurf-NX.git
 cd NetSurf-NX
 ./build_netsurf.sh
 ```
@@ -77,6 +79,7 @@ cd NetSurf-NX
 - **Disclaimer**: This project is an independent homebrew application created for research and educational purposes. It is **NOT** affiliated with, endorsed by, sponsored by, or associated in any way with **Nintendo Co., Ltd.** or its subsidiaries.
 - "Nintendo Switch" and "Joy-Con" are registered trademarks of Nintendo Co., Ltd.
 - This software contains **NO** proprietary Nintendo SDK code, keys, firmware, or copyright-circumventing technologies.
+- Users who download or compile this software assume **FULL** responsibility for their own actions and anything concerning **THEIR** console. The author of this port strongly condemns piracy, content theft, and console unauthorized modification.
 
 ---
 
